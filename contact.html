@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
     <link rel="stylesheet" href="./stylesheet.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
@@ -57,11 +57,7 @@
                         <div class="column ">
                             <img src="./img/icon-call-128.png">
                         </div>
-                        <!-- ................................................................-->
-
-
-                        
-
+                
                         <div class="column ">
                             Contact Us
                             <p></p>
@@ -82,122 +78,105 @@
                                 </strong>
                             </p>
                         </div>
-                    </div><!-- Horizon-->
-                </div><!-- colums-->
+                    </div>
+                </div>
 
-            </div><!-- contain-->
+            </div>
         </div>
 
 
 
     </section>
 
-    <!--  footer.............-->
-    <section class="section">
+
+    
+  <section class="section margineiei">
+
+    <div class="columns">
 
 
-        <div class="field-body">
-            <div class="field">
-                <label class="label">Firstname</label>
-                <p class="control is-expanded ">
-                    <input class="input" type="text" placeholder="Jhon">
+      <div class="column is-half">
+        <form method="POST">
+        <div class="label">ชื่อจริง</div>
 
-                </p>
+
+          <div calss="field">
+            <input class="input " type="text" placeholder="ขื่อ" name="name">
+          </div>
+          <h3 class="navbar-item"> </h3>
+          <div class="label">อีเมล</div>
+          <div class="field">
+            <p class="control has-icons-left is-primary">
+              <input class="input" type="email" placeholder="eieiei@mail.com" name="email">
+              <span class="icon is-small is-left">
+                <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="envelope"
+                  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                  <path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+                </svg><!-- <i class="fas fa-envelope"></i> -->
+              </span>
+          </div>
+          <div class="label">เรื่อง</div>
+
+
+          <div class="select">
+            <select name="problem">
+
+              <option>ปัญหาการใช้งานระบบ</option>
+              <option>รายงานความผิดพลาด</option>
+
+            </select>
+          </div>
+
+
+
+      </div>
+
+      <div class="column is-half">
+
+
+<div class="label">นามสกุล</div>
+
+
+          <div calss="field">
+            <input class="input" type="text" placeholder="นามสกุล" name="surname" >
+          </div>
+          <h3 class="navbar-item"> </h3>
+
+          <div class="field">
+              <label class="label">เบอร์โทรศัพท์</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input" type="email" placeholder="091-xxx-xxxx" value="">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-phone"></i>  </span>
+              </div>
+            
             </div>
-            <div class="field">
-                <label class="label">Lastname</label>
-                <p class="control is-expanded t">
-                    <input class="input is-success" type="email" placeholder="Kenedy" value="">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    <span class="icon is-small is-right">
-                        <i class="fas fa-check"></i>
-                    </span>
-                </p>
-            </div>
-        </div>
 
 
-        <div class="field-body is-horizontal">
-            <div class="field">
-                <label class="label">Email</label>
-                <p class="control is-expanded has-icons-left">
-                    <input class="input" type="text" placeholder="Example@email.com">
-
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-
-                    </span>
-                </p>
-            </div>
-            <div class="field">
-                <label class="label">Phone</label>
-                <p class="control is-expanded has-icons-left has-icons-right">
-                    <input class="input is-success" type="email" placeholder="088888845" value="">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    <span class="icon is-small is-right">
-                        <i class="fas fa-check"></i>
-                    </span>
-                </p>
-            </div>
-        </div>
-
-        <div class="field-body is-horizontal">
-
-            <div class="field-body">
-
-                <div class="field is-narrow">
-                    <div class="control"><label class="label">Subject</label>
-                        <div class="select is-fullwidth">
-                            <select>
-                                <option>General Quetion</option>
-                                <option>Sex</option>
-                                <option>Master</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+          <h3 class="navbar-item"> </h3>
 
 
-        <div class="field is-horizontal">
 
-            <div class="field-body">
-                <div class="field">
-                    <label class="label">Massage</label>
-                    <div class="control">
-                        <textarea class="textarea" placeholder="textarea"></textarea>
-                    </div>
-                    <div class="field is-horizontal">
-                        <div class="control">
-                            <button class="button is-link">
-                                Send
-                            </button>
-                        </div>
-
-                        <div class="control">
-                            <button class="">
-                                Cancel
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
 
 
-    </section>
-    <div class="hero-foot">
-        <nav class="tabs is-boxed is-fullwidth">
-            <div class="container">
 
-            </div>
-        </nav>
-    </div>
+
+    </div><!-- column -->
+<div class="colums">
+
+
+    <textarea class="textarea" placeholder="รายละเอียด" name="descript"></textarea>
+
+ <h3 class="navbar-item"> </h3>
+
+
+</div>
+
+<a class="button is-link">Send</a>
+<a class="button is-text">Cancel</a>
+  </section>
+
 </body>
 
 </html>
